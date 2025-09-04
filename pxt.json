@@ -1,0 +1,32 @@
+{
+    "name": "Fuzzy Makers",
+    "version": "1.0.1",
+    "description": "Uma extensão para o micro:bit dos kits Fuzzy Makers.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+    },
+    "files": [
+        "README.md",
+        "fuzzybot.ts",
+        "actuators.ts",
+        "sensors.ts",
+        "irControllerDefinition.ts",
+        "rgbLed.ts",
+        "joystick.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
